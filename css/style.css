@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+/* UTILITIES */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --pink: #ff00b7;
+  --mint: #cbfad9;
+  --dust: #f4f0f0;
+  --charcoal: #362333;
+}
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* FONTS */
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Sans', monospace;
+}
+
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 99px;
+  font-weight: bold;
+  color: var(--charcoal);
+}
+
+h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 62px;
+  font-weight: bold;
+  color: var(--charcoal);
+}
+
+h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 49px;
+  font-weight: bold;
+  color: var(--charcoal);
+}
+
+h4 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--charcoal);
+}
+
+h5 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--charcoal);
+}
+
+h6 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 21px;
+  font-weight: bold;
+  color: var(--charcoal);
+}
+
+a {
+  text-decoration: none;
+  color: var(--charcoal);
+}
+
+/* TOP NAV */
+
+.navbar {
+  background-color: var(--dust);
+  color: var(--charcoal);
+  height: 96px;
+}
+
+.navbar h5 {
+  padding: 32px 75px;
+}
+.navbar a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 24px;
+  color: var(--charcoal);
+  padding: 32px 84px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: var(--pink);
+  border-radius: 32px;
+  padding: 16px 40px;
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* SHOWCASE/HERO */
+
+.showcase {
+  background-color: var(--dust);
+  height: 984px;
+}
+
+/* FOOTER  */
+.footer {
+  height: 384px;
+}
+
+.footer .flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.icon-pink {
+  color: var(--pink);
+}
